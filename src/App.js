@@ -22,8 +22,8 @@ function App() {
     <h3>Number is : {myState} </h3>
     
      <div>
-      <button className="actionButton"  onClick={()=>{ dispatch(incNumber())}}>INCREMENT </button>
-      <button className="actionButton"   onClick={()=>{dispatch(decNumber())}}>DECREMENT </button>
+      <button className="actionButton"  onClick={()=>{ dispatch(incNumber(10))}}>INCREMENT </button>
+      <button className="actionButton"   onClick={()=>{dispatch(decNumber(5))}}>DECREMENT </button>
      </div>
 
 
